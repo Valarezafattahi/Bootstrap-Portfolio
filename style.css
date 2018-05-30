@@ -25,14 +25,18 @@ ul a {
     color: #999;
 }
 
-/* ul :first-child {
-    text-decoration: none; 
+/* ul :last-child {
+    border-right: none; 
+} */
 
-
-/* li :first-child {
+li :first-child {
     text-decoration: none;
 
-} */
+}
+
+#navbarNav > ul > li:nth-child(3) {
+    border-right: none;
+}
 
 h2 { color: #4aaaa5;
     margin-top: 25px;
