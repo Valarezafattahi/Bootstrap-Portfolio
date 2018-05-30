@@ -1,0 +1,54 @@
+body {
+    background-image: url(images/snow.png);
+    font-family: roboto;
+    
+}
+
+h3 {
+    color: white;
+    background-color: #4aaaa5;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+
+}
+
+ul a {
+    padding-left: 18px;
+    border-right: 1px solid #efefef;
+    color: #999;
+}
+
+/* ul :first-child {
+    text-decoration: none; 
+
+
+/* li :first-child {
+    text-decoration: none;
+
+} */
+
+h2 { color: #4aaaa5;
+    margin-top: 25px;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #999;
+    color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px #4aaaa5 solid;
+
+}
